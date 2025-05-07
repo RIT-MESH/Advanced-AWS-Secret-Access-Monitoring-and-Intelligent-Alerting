@@ -16,6 +16,8 @@ Monitoring who accesses sensitive configuration and credentials is crucial for s
 
 This setup is designed with security best practices in mind, including least-privilege IAM policies and resource hardening.
 
+![Screenshot 2025-05-01 204211](https://github.com/user-attachments/assets/6617be05-7161-4f8d-b1cf-41271433dd41)
+
 ## Key Features
 
 *   ✅ **Secret Access Logging:** Captures `GetSecretValue` API calls via CloudTrail.
