@@ -33,7 +33,6 @@ This setup is designed with security best practices in mind, including least-pri
 
 ## Architecture Flow
 
-*(The Architecture Flow description remains the same as the previous README version - detailing the 10 steps from Access to Reporting/Hardening)*
 
 1.  **Access:** IAM User/Role attempts `GetSecretValue` on **Secrets Manager**.
 2.  **Logging:** **CloudTrail** logs the API call and delivers it to an **S3 Bucket** (`ritesh-secrets-monitoring-logs-...`).
@@ -74,7 +73,7 @@ This setup is designed with security best practices in mind, including least-pri
 
 ## Setup Instructions
 
-*(This section now includes the necessary code snippets)*
+
 
 **1. Create Secret (Step 1 from detailed guide)**
 *   Go to AWS Secrets Manager.
